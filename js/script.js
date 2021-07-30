@@ -13,3 +13,10 @@ $(function() {
     });
     
 });
+// create JQUERY to trigger modal for reserve and login
+$('#reserveButton').click(function(){
+    $("#reserveModal").modal('show');
+})
+$("#loginButton").click(function(){
+    $("#loginModal").modal('show');
+})
